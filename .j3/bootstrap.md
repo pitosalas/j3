@@ -1,6 +1,6 @@
 # j3 Bootstrap Scaffold
 
-When bootstrapping a new project with j3, create the following files and folders exactly as specified below.
+When bootstrapping a new project with j3, assume that you are inside the directory of the target. Check that the .j3 folder is there and correct. Then create the following files and folders exactly as specified below.
 
 ## Folder structure to create
 

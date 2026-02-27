@@ -7,6 +7,7 @@ A package of Claude instructions that institutes a method for developing program
 To bootstrap a new project with j3:
 
 1. Copy the `.j3/` directory into your new project
+2. Copy CLAUDE.md into your new project
 2. Ask Claude to "bootstrap this project with j3"
 3. Fill in `process/spec.md` with your app description
 4. Start defining features and tasks

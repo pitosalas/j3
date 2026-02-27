@@ -1,6 +1,5 @@
 ## Technology and Framework Requirements
     * You shall write code in Python
-    * You shall use Python latest and standard package management (uv) 
     * You should prefer async/await over threading when there is a choice
     * You must look for existing libraries instead of reinventing solutions
     * You will always have a shebang line
@@ -24,6 +23,12 @@
     * You shall avoid functions with more than 3 arguments
     * You shall use absolute imports with module aliases rather than relative imports
     * You shall put all imports at the top of the file
+
+## Packaging
+    * You shall use Python latest and standard package management (uv) 
+    * You shall use the uv package manager at all times
+    * You shall call the directory containing the source code with the same name as the project directory
+    * You shall create the correct .toml file to ensure that the target program can be launched with uv run
 
 ## Code Quality and Best Practices
     * You shall write idiomatic Python
