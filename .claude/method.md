@@ -18,24 +18,13 @@
 * Then update the feature file: set Done to yes, and Tests Written and Test Passing to yes if applicable
 * Then move the feature file from features/notdone/ to features/done/
 
-# bootstrap
-* When asked to bootstrap a new project, create the following structure:
-  - `LICENSE` — copy from `.j3/LICENSE.template`, fill in year and author
-  - `README.md` — copy from `.j3/README.md.template`, fill in app name
-  - `.gitignore` — copy from `.j3/.gitignore.template` as-is
-  - `CLAUDE.md` — copy from `.j3/CLAUDE.md.template`, fill in app name
-  - `process/spec.md` — blank spec file for the target app
-  - `process/features/notdone/` — folder for pending features
-  - `process/features/done/` — folder for completed features
-  - `process/features/template.md` — copy from j3 template
-  - `process/tasks/notdone/` — folder for pending tasks
-  - `process/tasks/done/` — folder for completed tasks
-  - `process/tasks/template.md` — copy from j3 template
-* After scaffolding, prompt the user to fill in `process/spec.md` before defining any features
-
 # github
 * Whenever asked you will create a new commit with a good message
 * Whenever asked you will push to github
+
+# bugs and testing
+* Whenever a bug is discovered, and fixed, write a new test for it
+* Whenever we see a regression bug, and fix it, write a new test for it.
 
 
 
